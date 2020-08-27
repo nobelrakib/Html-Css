@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Implementing CSS</title>
+    <!-- Internal CSS -->
+    <style>
+      h2 {
+        color: green;
+      }
+      .sidebar{
+         width:300px;
+         
+         border:1px solid gray;
+         border-radius: 10px;
+        padding-right:20px;
+         padding-bottom: 10px;
+      }
+      .sidebar  li{
+          list-style: none;
+          padding-bottom: 20px;
+          padding-top:20px;
+          border-bottom: 1px dotted #ddd;
+          
+      }
+     
+      .sidebar  li a:hover{
+          color:coral;
+      }
+      .sidebar  li:nth-child(4){
+          list-style: none;
+          border-bottom:none
+      }
+      .menubar{
+          
+          
+          border-top-right-radius: 10px;
+          margin:0px;
+          padding: 0px;
+          border-radius: 10px;
+          
+          background-color: cornflowerblue;
+          
+          overflow:auto
+      }
+     
+      .menubar li{
+          list-style: none;
+          float:left;
+        
+        
+      }
+      .menubar  li a{ 
+          text-decoration: none;
+          padding: 15px 20px;
+          cursor: pointer;
+          display: block;
+      }
+      .menubar li a:hover {
+        background-color: #446190;
+        color: #f4f4f4;
+        
+      }
+     
+    </style>
+  </head>
+
+  <body>
+      
+        <ul class="menubar">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <br>
+      <br>
+    
+    <ul class="sidebar">
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Services</a></li>
+        <li><a>Contact</a></li>
+    </ul>
+    
+  </body>
+</html>
